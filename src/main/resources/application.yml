@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zuul
+
+server:
+  port: 10320
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10210/eureka/
